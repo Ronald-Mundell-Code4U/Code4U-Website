@@ -15,7 +15,7 @@ export function ServicesStrip() {
         <SectionHeading
           eyebrow="Our Services"
           title="Full-stack solutions, built to last."
-          description="From idea to deployment — web, mobile, AI, and cloud, all delivered with senior-level execution."
+          description="From idea to deployment for web, mobile, AI, and cloud, all delivered with senior-level execution."
         />
 
         <div className="mt-12 md:mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

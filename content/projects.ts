@@ -29,13 +29,13 @@ export const projects: Project[] = [
     role: "Product, design & full-stack engineering",
     tagline: "A workout timer built by athletes, for athletes.",
     problem:
-      "CrossFit and Hyrox athletes needed a precise, dedicated interval timer that worked seamlessly across phone, tablet, and gym display — without the rough edges of generic timer apps.",
+      "CrossFit and Hyrox athletes needed a precise, dedicated interval timer that worked seamlessly across phone, tablet, and gym display without the rough edges of generic timer apps.",
     solution:
-      "Code4U built a cross-platform app in React Native with native iOS polish, plus a web version on Vercel. Covers AMRAP, For Time, EMOM, TABATA, and Complex timers — all the standard WOD formats — with saveable favourite timers and mobile-first ergonomics for gym environments.",
+      "Code4U built a cross-platform app in React Native with native iOS polish, plus a web version on Vercel. Covers AMRAP, For Time, EMOM, TABATA, and Complex timers, all the standard WOD formats with saveable favourite timers and mobile-first ergonomics for gym environments.",
     outcome:
       "Live on the Apple App Store with the web version at timeyourwod.code4u.app. Continually improved based on gym-owner and member feedback.",
     story:
-      "TimeYourWOD started from the founder's own experience as a passionate athlete and coach — understanding firsthand how precise timing and structure shape a good workout. Existing timers fell short, so we built the one we wished existed.",
+      "TimeYourWOD started from the founder's own experience as a passionate athlete and coach understanding firsthand how precise timing and structure shape a good workout. Existing timers fell short, so we built the one we wished existed.",
     mission:
       "Founded with a personal connection to neurodiversity and the late-diagnosed autism community, a portion of TimeYourWOD platform proceeds is dedicated to raising awareness and supporting early diagnosis efforts for individuals with autism.",
     stack: ["React Native", "Expo", "TypeScript", "iOS", "Vercel"],
@@ -50,7 +50,7 @@ export const projects: Project[] = [
     role: "End-to-end build + AWS deployment",
     tagline: "The ultimate word-crafting adventure.",
     problem:
-      "After enjoying daily word games like Wordle, Spelling Bee, and Connections, we wanted something new — a word game with deeper mechanics, a daily challenge, and room to grow. Plus an honest production context to validate AWS deployment patterns at low cost.",
+      "After enjoying daily word games like Wordle, Spelling Bee, and Connections, we wanted something new a word game with deeper mechanics, a daily challenge, and room to grow. Plus an honest production context to validate AWS deployment patterns at low cost.",
     solution:
       "We designed and launched an interactive word-forging game from concept to deployment. Seven letters glow like embers; players hammer them into five unique five-letter words, racing toward the elusive Final Word of the day. Built with HTML, CSS, JavaScript, and Node.js, hosted on AWS S3 + CloudFront with strict free-tier budgeting.",
     outcome:
@@ -60,29 +60,7 @@ export const projects: Project[] = [
     status: "Live",
     featured: true,
   },
-  {
-    slug: "faiza-homes",
-    title: "Faiza Homes",
-    role: "AI strategy + full-stack platform build",
-    tagline: "AI-powered rental platform.",
-    problem:
-      "Rental platforms typically depend on manual agent responses for every property inquiry and tenant screening — slow, inconsistent, and hard to scale across a growing portfolio.",
-    solution:
-      "Code4U architected a production React + Supabase platform with a RAG-based QA agent grounded in live listing data, and a hybrid tenant pre-screening agent pairing rule-based logic with the Claude Sonnet API for transparent qualification decisions. Hardened with Edge Functions, RLS policies, and integrated Stripe, SendGrid, and Twilio.",
-    outcome:
-      "End-to-end rental workflow deployed to production — from tenant discovery to lease signing — with automated AI handling inquiries and screening at scale.",
-    stack: [
-      "React",
-      "Supabase",
-      "Claude API",
-      "PostgreSQL",
-      "Stripe",
-      "SendGrid",
-      "Twilio",
-    ],
-    status: "Production",
-    featured: true,
-  },
+
 ];
 
 export const clientWork: ClientWork[] = [
